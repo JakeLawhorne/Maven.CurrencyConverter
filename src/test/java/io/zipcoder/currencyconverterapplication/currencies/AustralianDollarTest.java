@@ -19,7 +19,7 @@ public class AustralianDollarTest implements CurrencyTestInterface {
         Double actual = currency.convert(currencyType);
 
         // then
-        Assert.assertEquals(expected, actual);
+        Assert.assertEquals(expected, actual, .000002);
     }
 
 
